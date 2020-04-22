@@ -28,6 +28,7 @@ class CardInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Card(
+        elevation: 0,
         child: Container(
             padding: EdgeInsets.symmetric(horizontal: 12, vertical: 10),
             child: Column(
