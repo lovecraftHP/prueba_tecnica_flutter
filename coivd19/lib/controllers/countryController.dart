@@ -41,6 +41,16 @@ class CountryController extends BaseModel {
     }
   }
 
+  // Future sortAlpha() async {
+  //   try {
+  //     isLoading = ViewState.Busy;
+  //     _countriesList.sort();
+  //     isLoading = ViewState.Idle;
+  //   } catch (e) {
+  //     print(e);
+  //   }
+  // }
+
   Future sortDesc() async {
     try {
       isLoading = ViewState.Busy;
